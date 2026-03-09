@@ -1,0 +1,40 @@
+<!-- =============================== -->
+<!-- SAAS DASHBOARD TEMPLATE -->
+<!-- Save as: saas-dashboard-demo/index.html -->
+<!-- =============================== -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SaaS Dashboard Demo</title>
+<style>
+body{margin:0;font-family:Arial;background:#f4f6f9}
+.dashboard{display:flex}
+.sidebar{width:220px;background:#111;color:white;height:100vh;padding:20px}
+.main{flex:1;padding:30px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.card{background:white;padding:20px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,.08)}
+</style>
+</head>
+<body>
+<div class="dashboard">
+<div class="sidebar">
+<h3>Dashboard</h3>
+<p>Analytics</p>
+<p>Users</p>
+<p>Settings</p>
+</div>
+
+<div class="main">
+<h1>Admin Overview</h1>
+<div class="cards">
+<div class="card"><h3>Revenue</h3><p>$12,430</p></div>
+<div class="card"><h3>Users</h3><p>1,284</p></div>
+<div class="card"><h3>Growth</h3><p>+18%</p></div>
+</div>
+</div>
+</div>
+</body>
+</html>
